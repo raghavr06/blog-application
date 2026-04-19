@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
-const API_URL = 'http://localhost:5000/posts';
+/* const API_URL = 'http://localhost:5000/posts'; */
+const API_URL = 'http://YOUR_PUBLIC_IP:5000/posts';
 
 function App() {
   const [posts, setPosts] = useState([]);
